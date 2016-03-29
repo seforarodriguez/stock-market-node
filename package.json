@@ -1,0 +1,111 @@
+{
+  "name": "stock-market-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seforarodriguez/stock-market-node.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-console": 0,
+      "array-bracket-spacing": [
+        2,
+        "never"
+      ],
+      "arrow-spacing": 2,
+      "block-spacing": 2,
+      "brace-style": [
+        2,
+        "1tbs",
+        {
+          "allowSingleLine": true
+        }
+      ],
+      "comma-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "dot-location": [
+        2,
+        "property"
+      ],
+      "dot-notation": 2,
+      "eol-last": 2,
+      "eqeqeq": 2,
+      "generator-star-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ],
+      "indent": [
+        2,
+        2,
+        {
+          "SwitchCase": 1,
+          "VariableDeclarator": {
+            "var": 2,
+            "let": 2,
+            "const": 3
+          }
+        }
+      ],
+      "no-const-assign": 2,
+      "no-lonely-if": 2,
+      "no-loop-func": 2,
+      "no-magic-numbers": 2,
+      "no-multi-spaces": 2,
+      "no-multiple-empty-lines": [
+        2,
+        {
+          "max": 3,
+          "maxEOF": 1
+        }
+      ],
+      "no-unexpected-multiline": 2,
+      "prefer-arrow-callback": 2,
+      "space-infix-ops": [
+        2,
+        {
+          "int32Hint": true
+        }
+      ],
+      "strict": [
+        2,
+        "global"
+      ],
+      "yoda": 2
+    }
+  },
+  "author": "“Sefora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seforarodriguez/stock-market-node/issues"
+  },
+  "homepage": "https://github.com/seforarodriguez/stock-market-node#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "lodash": "^4.5.0",
+    "mongoose": "^4.4.3",
+    "request": "^2.69.0"
+  }
+}
